@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    color: #333;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background: url('background-image.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    color: black;
+}
+
+.home-content h1 span {
+    color: #ff6347;
+    font-family: cursive;
+}
+
+.home-content h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    margin: 1em 0;
+    color: #333;
+}
+
+.home-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#about, #projects, #skills, #contact {
+    background: white;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+.about-content, .projects-content, .skills-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.project-item, .skill {
+    margin: 20px 0;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.skill-bar {
+    background: #ff6347;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e55337;
+}
